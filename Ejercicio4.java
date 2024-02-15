@@ -8,6 +8,6 @@ a=leer.nextDouble();
 double pi=3.1416;
 b= a/2;
 c=pi*(b*b);
-System.out.println("El area del circulo es: "+c);
+System.out.println("El area del circulo es: "+c+" cm " );
     }
 }
