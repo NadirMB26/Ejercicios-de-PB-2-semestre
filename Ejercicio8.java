@@ -7,7 +7,7 @@ int a,b;
 a=leer.nextInt();
 b=a/2;
 if(b==1){
-System.out.println("El Numero es entero y su resultado es"+b);
+System.out.println("El Numero es entero y su resultado es "+b);
 }else{
 System.out.println("Error El Numero ingresado no es entero");
 }
