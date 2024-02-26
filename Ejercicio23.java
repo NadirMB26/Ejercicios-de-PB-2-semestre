@@ -50,7 +50,11 @@ System.out.println("Amarillo");
 System.out.println("Rojo");
 }
 } while (d==a && e==b && f==c);
-
+if(d==a && e==b && f==c){
+    System.out.println("Ganaste");
+}else{
+    System.out.println("Fallaste");
+}
 }
     }
 }
