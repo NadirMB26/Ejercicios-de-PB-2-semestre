@@ -9,12 +9,19 @@ System.out.println("Digita la ["+(i+1)+"] toma de temperatura");
 a[i]=leer.nextDouble();
 b+=a[i];
 }
-
 double temperaturaMaxima = Double.MIN_VALUE;
 double temperaturaMinima = Double.MAX_VALUE;
-System.out.println("La temperatura mas alta del dia fue"+ temperaturaMaxima);
-System.out.println("La temperatura media del dia fue"+(b/6));
-System.out.println("La temperatura mas baja del dia fue"+temperaturaMinima);
+for(int i=0; i<6;i++){
+    if (a[i]> temperaturaMaxima) {
+        temperaturaMaxima = a[i];
+    }
+    if (a[i] < temperaturaMinima) {
+        temperaturaMinima = a[i];
+    }
+}
+System.out.println("La temperatura mas alta del dia fue "+ temperaturaMaxima);
+System.out.println("La temperatura mas baja del dia fue "+temperaturaMinima);
+System.out.println("La temperatura media del dia fue "+(b/6));
 
     }
 }
