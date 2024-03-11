@@ -9,8 +9,8 @@ int tarif=leer.nextInt();
 if(a>40){
    int b= 40*tarif;
    int c=(a-40)*tarif;
-   double d=0.50*c;
-   System.out.println("Su pago por las ["+a+"] Horas fue de:"+(d+c+b));
+   double d=c*0.5;
+   System.out.println("Su pago por las ["+a+"] Horas fue de:"+(d+b));
 }else{
     int b=a*tarif;
     System.out.println("Su pago fue de:"+b);

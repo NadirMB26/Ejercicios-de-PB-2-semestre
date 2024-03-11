@@ -2,9 +2,7 @@ import java.util.*;
 public class Ejercicio47 {
     public static void main(String[]args){
         Scanner leer=new Scanner(System.in);
-        double cantidadc,precioO,precioP,descuento;
-        System.out.print("Introduce la cantidad comprada: ");
-        cantidadc = leer.nextDouble();
+        double precioO,precioP,descuento;
         System.out.print("Introduce el precio original de la compra: ");
         precioO = leer.nextDouble();
         System.out.print("Introduce el precio pagado: ");

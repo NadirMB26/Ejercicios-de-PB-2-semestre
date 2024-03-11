@@ -5,8 +5,6 @@ public class Ejercicio55{
         System.out.println("Ingresa un numero");
         int numero = leer.nextInt();
         primeNumber(numero);
-
-   
     }
     public static void primeNumber(int num) {
         boolean prime = true; 

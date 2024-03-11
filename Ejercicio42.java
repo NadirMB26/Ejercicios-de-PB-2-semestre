@@ -2,7 +2,7 @@ import java.util.*;
 public class Ejercicio42 {
     public static void main(String[]args){
         Scanner leer=new Scanner(System.in);
-        double vn=0.5,kr,pn=6;
+        double vn=0.05,kr,pn=6;
         System.out.println("Ingresa los voltios requeridos para el sistema de iluminacion");
         kr=leer.nextDouble();
         double kr2=kr*1000;

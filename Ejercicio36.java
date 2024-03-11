@@ -6,7 +6,7 @@ public class Ejercicio36 {
         System.out.println("Ingresa las horas");
         horas=leer.nextDouble();
         do{
-        System.out.println("Ingresa los minutos (este valor no puede ser mayor a 60)");
+            System.out.println("Ingresa los minutos (este valor no puede ser mayor a 60)");
         minutos=leer.nextDouble();
         }while(minutos>60);
         minutos=1;
